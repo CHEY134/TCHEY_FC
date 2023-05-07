@@ -1,0 +1,66 @@
+
+.player img {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #ccc;
+  transition: transform 0.3s; 
+}
+
+.player img:hover {
+  transform: scale(1.1); 
+}
+
+.player h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.player p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.player {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+
+.button-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.button {
+  background-color: red;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.2s ease-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: #FF5733; 
+}
+
