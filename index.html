@@ -9,7 +9,7 @@
   <link rel="icon" href="https://img.freepik.com/free-vector/hand-drawn-flat-design-football-logo-template_23-2149373252.jpg">
 </head>
 <body>
-  
+  <!--div bar-->
   <header>
     <h1 class="logo">TCHEY'S FOOTBALL CLUB</h1>
     <nav>
@@ -23,46 +23,47 @@
       </ul>
     </nav>
   </header>
-
+<!--background slideshow-->
   <div class="slideshow">
     <img src="https://www.thesun.co.uk/wp-content/uploads/2018/05/nintchdbpict000409542421.jpg" alt="Image 1">
     <img src="https://icdn.football-espana.net/wp-content/uploads/2022/06/Marcelo-1.jpeg" alt="Image 3">
     <img src="https://e3.365dm.com/23/02/2048x1152/skynews-manchester-united-carabao-cup_6071177.jpg" alt="Image 7">
   </div>
-  
+  <!--text-->
   <main>
     <h2 id="qq">მოგესალმებით ჩვენს ვებ-გვერდზე</h2>
-    <p>გაეცანით უახლეს ამბებს, გუნდების პოზიციებს და მატჩების განრიგს თქვენი საყვარელი საფეხბურთო გუნდის შესახებ.</p>
+    <p>გაეცანით უახლეს ინფორმაციას თქვენი საყვარელი საფეხბურთო გუნდის შესახებ</p>
   </main>
 
 
-  <div class="registration-form">
+
+<!-- HTML registration form -->
+<div class="registration-form">
     <h2 id="tt">რეგისტრაცია</h2>
-    <form>
-      <div class="form-group">
-        <label for="username">მომხმარებლის სახელი</label>
-        <input type="text" id="username" name="username" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{12,}" required>
-      </div>
-      <div class="form-group">
-        <label for="password">შეიყვანე პაროლი</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <div class="form-group">
-        <label for="confirm-password">დაადასტურე პაროლი</label>
-        <input type="password" id="confirm-password" name="confirm-password" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="phone">ტელეფონის ნომერი</label>
-        <input type="tel" id="phone" name="phone" required>
-      </div>
-      <button type="submit">დადასტურება</button>
+        <div class="form-group">
+            <label for="username">მომხმარებლის სახელი</label>
+            <input type="text" id="username" name="username" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{12,}" >
+        </div>
+        <div class="form-group">
+            <label for="password">შეიყვანე პაროლი</label>
+            <input type="password" id="password" name="password" >
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">დაადასტურე პაროლი</label>
+            <input type="password" id="confirm-password" name="confirm-password" >
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" >
+        </div>
+        <div class="form-group">
+            <label for="phone">ტელეფონის ნომერი</label>
+            <input type="tel" id="phone" name="phone" >
+        </div>
+        <button type="submit">დადასტურება</button>
     </form>
-  </div>
-  
+</div>
+<!--footer-->
   <footer>
   <p id="p">&copy; 2023 TCHEY'S FOOTBALL CLUB</p>
   <ul>
@@ -72,7 +73,7 @@
     <li><a href="https://twitter.com/" target="_blank"><img src="https://about.twitter.com/content/dam/about-twitter/en/brand-toolkit/brand-download-img-1.jpg.twimg.1920.jpg" alt="Twitter"></a></li>
   </ul>
 </footer>
-
+<!--login-->
 <button class="login-btn"><a href="login.html">შესვლა</a></button>
 
 </body>

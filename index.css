@@ -105,41 +105,38 @@ main:hover {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    text-align: center; 
-    }
-
-  
-  footer p {
-  margin: 0;
+    text-align: center;
   }
   
-  footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  }
-
-
-  footer li {
-  margin-right: 10px;
+  #p {
+    font-size: 16px;
   }
   
-  footer img {
-  width: 30px;
-  height: 30px;
-  transition: transform 0.3s ease-in-out;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
   }
   
-  footer img:hover {
-  transform: scale(1.1);
+  li {
+    display: inline-block;
+    margin-right: 10px;
   }
-
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
   
   @media (max-width: 768px) {
     header {
@@ -244,8 +241,6 @@ main:hover {
     background-color: #45a049;
   }
   
-
-
   body {
     background-color: rgb(192,192,192);
     animation: color-slideshow 10s ease-in-out infinite; 
