@@ -190,57 +190,27 @@ main:hover {
   .login-btn:hover {
     transform: scale(1.1); 
   }
-  
-  
-  
 
-  .registration-form {
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 400px;
-    margin: 0 auto;
-  }
-  
-  #tt {
-    text-align: center;
-    margin-top: 0;
-  }
-  
-  .form-group {
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="password"],
-  input[type="email"],
-  input[type="tel"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  button[type="submit"] {
-    background-color: #4CAF50;
+  .registration {
+    background-color: #ed0303;
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 120px;
+    text-decoration: none; 
+    transition: transform 0.2s ease-in-out; 
   }
   
-  button[type="submit"]:hover {
-    background-color: #45a049;
+  .registration:hover {
+    transform: scale(1.1); 
   }
   
+
   body {
     background-color: rgb(192,192,192);
     animation: color-slideshow 10s ease-in-out infinite; 
@@ -263,3 +233,17 @@ main:hover {
       rgb(192,192,192)
     }
   }
+
+
+  body{
+    padding:50px;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+}
